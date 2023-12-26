@@ -1,9 +1,9 @@
-class Todo {
-  final String title;
+class TodoModel {
+  final String name;
   final DateTime createAt;
 
-  Todo({
-    required this.title,
+  TodoModel({
+    required this.name,
     required this.createAt,
   });
 }
